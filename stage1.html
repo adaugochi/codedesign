@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>stage one</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .content-header {
+        background-image: url('images/img1.jpg');
+		background-repeat: no-repeat;
+    	background-position: center;
+        background-size: cover;
+        padding-bottom: 300px;
+    }
+
+    nav {
+        padding: 15px 45px 15px 15px;
+    }
+
+    nav, footer {
+		background-color: darkgray;
+    }
+
+	.list-group {
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+	}
+
+    .list-item {
+        display: block;
+    }
+
+	.list-item a {
+		text-decoration: none;
+		color: white;
+        float: right;
+        margin-right: 30px;
+        font-weight: bold;
+	}
+
+    .image-section {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .first-img {
+        margin-right: 200px
+    }
+
+    .second-img {
+        margin-left: 200px
+    }
+
+    main {
+        padding-bottom: 40px;
+    }
+
+    h5, h1 {
+        text-align: center;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    footer {
+        padding: 2px 5px 2px 5px;
+    }
+</style>
+<body>
+
+    <div class="content-header">
+        <nav>
+            <ul class="list-group"> 
+                <li class="list-item"><a href="">Contact</a></li>
+                <li class="list-item"><a href="">About</a></li>
+                <li class="list-item"><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+    	<h1>Hello World</h1>
+    	<div class="image-section">
+    		<div class="first-img">
+    			<h3>Image One</h3>
+    			<img src="images/img2.jpg" class="img1" width="300" height="300">
+    		</div>
+    		<div class="second-img">
+    			<h3>Image Two</h3>
+    			<img src="images/img3.jpeg" class="img2" width="300" height="300">
+    		</div>
+    	</div>
+    </main>
+    <footer>
+    	<h5>Copyright &copy</h5>
+    </footer>
+</body>
+</html>
